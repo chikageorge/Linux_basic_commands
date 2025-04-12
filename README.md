@@ -68,7 +68,7 @@ Key directories under root (/):
 cd /  # Go to root directory
 cd /usr  # Enter /usr directory
 ```
-*File Operations Commands*\
+*File Operations Commands*
 ls - List Directory Contents
 ``` bash
 ls  # List current directory
@@ -77,19 +77,19 @@ ls -R  # List recursively
 ls -a  # Show hidden files
 ls -lh  # Human-readable sizes
 ```
-**cat - Concatenate Files**\
+**cat - Concatenate Files**
 Display file contents:
 ``` bash
 cat filename.txt
 sudo cat /etc/os-release  # View system info
 ```
-**cp - Copy Files/Directories**\
+**cp - Copy Files/Directories**
 ``` bash
 cp file.txt /destination/  # Copy file
 cp file1.txt file2.txt file3.txt /destination/  # Multiple files
 cp -R /source/ /backup/  # Copy directory recursively
 ```
-**mv - Move/Rename Files**\
+**mv - Move/Rename Files**
 ``` bash
 mv file.txt /new/location/  # Move file
 mv oldname.txt newname.txt  # Rename file
