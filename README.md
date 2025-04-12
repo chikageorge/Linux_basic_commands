@@ -118,22 +118,31 @@ find / -type d -name photos  # Search directories
 ``` bash
     sudo mkdir /usr/photos
 ```
+![mdir](images/1mkdir.png)
+
 ### Step 2: Navigate into it:
 ``` bash
     cd /usr/photos
 ```
+![Alt Text](images/2cd.png)
+
 ### Step 3: Create 3 subdirectories:
 ``` bash
     mkdir dir1 dir2 dir3
 ```
+![Alt Text](images/3mkdir3.png)
 ### Step 4: Show the new directories:
 ``` bash
     ls
 ```
+![Alt Text](images/4ls.png)
+
 ### Step 5: Navigate into one and show path:
 ``` bash
     cd dir1
     pwd
 ```
+![Alt Text](images/5cd_dir.png)
+![Alt Text](images/6pwd.png)
 Summary
 These fundamental commands form the basis of Linux system navigation and file management. Always use sudo cautiously and double-check rm commands to prevent accidental data loss.
